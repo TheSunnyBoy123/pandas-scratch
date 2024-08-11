@@ -10,5 +10,6 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 
-def update(text):
+
+def update_plain(text):
     print(f"{bcolors.YELLOW}[-]{bcolors.ENDC} {text}")
