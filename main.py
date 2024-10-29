@@ -7,16 +7,16 @@ import json
 from output import *
 from arrayClass import *
 
-if __name__ == '__main__':
-    # parser = argparse.ArgumentParser(description='Process some integers.')
-    # parser.add_argument('integers', metavar='N', type=int, nargs='+', help='an integer for the accumulator')
 
-    # args = parser.parse_args()
-    # print(args.accumulate(args.integers))
+class Series():
+    def __init__(self):
+        self.values = []
+    
+    def __str__(self) -> str:
+        return str(self.values)
 
-    arr1 = Array([[1, 2], [3, 4]])
-    arr2 = Array([[5, 6], [7, 8]])
+class DataFrame():
+    def __init__(self):
+        pass
 
-    arr3 = arr1 * arr2
-    arr3.display()
 
